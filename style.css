@@ -12,11 +12,65 @@ header{
     
 }
 
+
+hr {
+    border-color: #F9FAF8;
+}
+
+
+#par{
+    font-size: 20px;
+    position: absolute;
+    top: 16vh;
+    color:#F9FAF8;
+    width: 300px;
+    left: 163px;
+
+}
+
+
+
+
+#placeholder{
+    background-color: grey;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center; /* Align horizontally in the center */
+    align-items: center; 
+    margin-right: 250px;
+    
+
+}
+
+
+
+#f{
+    background-color: #1F2937;
+    width: 100%;
+    height: 34vh;
+    position: absolute; 
+    top: 15vh; 
+    display: flex;
+    justify-content: flex-end; 
+}
+
 h1{
     color: #F9FAF8;
     position: absolute; 
     top: 10px;
     left: 40px;
+}
+
+
+
+#f1{
+    margin: 10px;
+    font-size: 48px;
+    color: #F9FAF8;
+    position: absolute; 
+    left: 150px; 
+    width: 300px;
 }
 
 #links{
@@ -36,4 +90,27 @@ h1{
     
 }
 
+#third{
 
+    background-color: rgb(229, 255, 0);
+    width: 100%;
+    position: absolute;
+    top:49vh;
+    height: 29vh;
+    display: flex;
+}
+
+
+#Inside-third{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+#Info-title{
+    text-align: center; 
+}
